@@ -4,15 +4,19 @@ module.exports = {
          /(?<=\<\!--\sstart\scolumn\s--\>).+?(?=<!--\send\scolumn\s-->)/gs
       );
    },
+
    getName(component) {
       return component.match(/(?<=<b>).+(?=<\/b>)/);
    },
+
    getDesc(component) {
       return component.match(/(?<=<\/b>\s-\s).+(?=<\/p>)/s);
    },
+
    getInputs(component) {
       return component.match(/<input.+?\/\>/gs);
    },
+
    trim(str) {
       return str
          .replace(/(\\r)|(\\n)/g, " ") // replace carriage returns and new lines with a space
