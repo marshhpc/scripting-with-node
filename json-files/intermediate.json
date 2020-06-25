@@ -1,0 +1,65 @@
+[
+   {
+      "name": "countingCards",
+      "desc": "Enter a card value, this will keep track of your odds and help you make a better informed bet.",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 200
+   },
+   {
+      "name": "lookUpProfile",
+      "desc": "Enter the name of someone in our database, and wether you want their likes or number.",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 201
+   },
+   {
+      "name": "randomRange",
+      "desc": "Enter a max and a min, and this shows generates a random integer within that range.",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 202
+   },
+   {
+      "name": "removeSplice",
+      "desc": "Enter an array and this will remove the first and last points.",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 203
+   },
+   {
+      "name": "addItemSplice",
+      "desc": "Enter an array and this will insert a string telling you where the halfway mark is.",
+      "inputs": 3,
+      "type": "basic",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 204
+   },
+   {
+      "name": "checking",
+      "desc": "Enter an array and an element and this will search if its in the array.",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 205
+   },
+   {
+      "name": "findTheType",
+      "desc": "Use type of to Check the Type of a Variable.",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 206
+   }
+]

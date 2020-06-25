@@ -14,7 +14,11 @@ module.exports = {
    },
 
    getInputs(component) {
-      return component.match(/<input.+?\/\>/gs);
+      let arrayInput = component.match(/<input.+?\/\>/gs);
+      if (arrayInput == null) {
+         return [];
+      }
+      return arrayInput;
    },
 
    trim(str) {

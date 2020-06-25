@@ -1,0 +1,74 @@
+[
+   {
+      "name": "popularRapMusic",
+      "desc": "Input artist, album, or genre to return a new array. Uses the map function",
+      "inputs": 1,
+      "type": "Functional&Algorithm",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 300
+   },
+   {
+      "name": "filterMethod",
+      "desc": "The filter() method returns an array containing elements of the parent array that match the set test. Returns all strings with a length > 6.",
+      "inputs": 0,
+      "type": "Functional&Algorithm",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 301
+   },
+   {
+      "name": "concatArr",
+      "desc": "array of input1 will be added to original array numberArray",
+      "inputs": 1,
+      "type": "Functional&Algorithm",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 302
+   },
+   {
+      "name": "splitArr",
+      "desc": "Split a string into an array of substrings. This function is set up to split at argument delimiter space ex(\" \")",
+      "inputs": 1,
+      "type": "Functional&Algorithm",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 303
+   },
+   {
+      "name": "joinSSN",
+      "desc": "The join() method creates and returns a new string by concatenating all of the elements in an array (or an array-like object), separated by commas or a specified separator string. If the array has only one item, then that item will be returned without using the separator.",
+      "inputs": 1,
+      "type": "Functional&Algorithm",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 304
+   },
+   {
+      "name": "everyPositive",
+      "desc": "Input an array of numbers, if all positve, it will return ture. If postive and negative, it returns false. If all negative it returns false. All elements must pass.",
+      "inputs": 1,
+      "type": "Functional&Algorithm",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 305
+   },
+   {
+      "name": "someMethod",
+      "desc": "Input an array of numbers, if any element is less than 10, it will return true. Every makes every element pass the requiremtns to be true, where some only requires one element to pass to be true.",
+      "inputs": 1,
+      "type": "Functional&Algorithm",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 306
+   },
+   {
+      "name": "includesMethod",
+      "desc": "Please input a pizza topping, make sure it is a string, and will return true if its the array or false if not.",
+      "inputs": 1,
+      "type": "Functional&Algorithm",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 307
+   }
+]
